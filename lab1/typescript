@@ -1,0 +1,1161 @@
+Script started on Thu 12 Apr 2018 10:11:40 AM PDT
+heh2@CF167-22:~$ git config -- global user.name ""[KHen[K[K[K[KHenry[1P[C[C[C[C[1@-[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+fatal: not in a git directory
+heh2@CF167-22:~$ git config --global userr[K.name h[KHenry
+heh2@CF167-22:~$ git config--[K[K --global. [K[K user.email username[K[K[K[K[K[K[K[Kheh2@wwu.edu
+heh2@CF167-22:~$ git clone hh[Kttps://github.com/te[K[Khutchteaching/201820_csci241_heh2[Kheh2@CF167-22:~$ git clone https://github.com/hutchteaching/201820_csci241_heh2 ~/241rep0[Ko
+Cloning into '/home/heh2/241repo'...
+Username for 'https://github.com': heh2
+Password for 'https://heh2@github.com': 
+remote: Counting objects: 4, done.[K
+remote: Compressing objects:  25% (1/4)   [Kremote: Compressing objects:  50% (2/4)   [Kremote: Compressing objects:  75% (3/4)   [Kremote: Compressing objects: 100% (4/4)   [Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  25% (1/4)   Unpacking objects:  50% (2/4)   Unpacking objects:  75% (3/4)   Unpacking objects: 100% (4/4)   Unpacking objects: 100% (4/4), done.
+Checking connectivity... done.
+heh2@CF167-22:~$ cs ~/241repo
+The program 'cs' is currently not installed. To run 'cs' please ask your administrator to install the package 'csound'
+heh2@CF167-22:~$ cd ~/241repo
+heh2@CF167-22:~/241repo$ mkdir lab1
+heh2@CF167-22:~/241repo$ cd lab1
+heh2@CF167-22:~/241repo/lab1$ tpi[K[Kouch writeup.txt
+heh2@CF167-22:~/241repo/lab1$ git add writeup.txt # run "git help add" for details
+heh2@CF167-22:~/241repo/lab1$ git comit -,[Km "a[KAdded empty writeup"
+git: 'comit' is not a git command. See 'git --help'.
+
+Did you mean this?
+	commit
+heh2@CF167-22:~/241repo/lab1$ git C[Kcommit -m"[K " [Ka[KAdded empty writeup"
+[master dd84382] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 lab1/writeup.txt
+heh2@CF167-22:~/241repo/lab1$ https://github.com/huth[Kchteaching/201820_csci241_heh2
+bash: https://github.com/hutchteaching/201820_csci241_heh2: No such file or directory
+heh2@CF167-22:~/241repo/lab1$ git push # sometimes it wants you to be more specific [K: git push or igin master
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': heh2
+Password for 'https://heh2@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/hutchteaching/201820_csci241_heh2/'
+heh2@CF167-22:~/241repo/lab1$ https://github.com?hutchteac[K[K[K[K[K[K[K[K[K[K/htu[K[KutchTea[K[K[Kteaching/201820_csci241_heh2
+bash: https://github.com/hutchteaching/201820_csci241_heh2: No such file or directory
+heh2@CF167-22:~/241repo/lab1$ git push # sometimes i[Kit wants you to be more specific: git push or igin master
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': heh2
+Password for 'https://heh2@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 355 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/hutchteaching/201820_csci241_heh2
+   8a8e593..dd84382  master -> master
+heh2@CF167-22:~/241repo/lab1$ https://github.com/hutchteaching/201820_csci241_heh2
+bash: https://github.com/hutchteaching/201820_csci241_heh2: No such file or directory
+heh2@CF167-22:~/241repo/lab1$ git commit - m[K[Km ""[Ca"d"d"[1P"[1P"[1P"[K[C"A"d"d"e"d" "E"m"t"p"[1P"[1P"[1P"[1P"e"m"p"t"y" "w"r"i"t"e"u"p"[C
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ cd lab1
+bash: cd: lab1: No such file or directory
+heh2@CF167-22:~/241repo/lab1$ cd lab1
+bash: cd: lab1: No such file or directory
+heh2@CF167-22:~/241repo/lab1$ touch wrti[K[Kiteup.txt
+heh2@CF167-22:~/241repo/lab1$ git add write [Kupe[K.txt # run "[C"g"i"t" "h"e"l"p"[Cadd[K[K[K add [K[K[K[K[K[K add" for details
+heh2@CF167-22:~/241repo/lab1$ git commit -m ""a"[1P"A"d"d"e"d" "e"m"p"t"y" "w"r"i"t"e"u"p"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ https://github.com/hutchteaching/201820_csc1[Ki241_username[K[K[K[K[K[K[K[Kheh2
+bash: https://github.com/hutchteaching/201820_csci241_heh2: No such file or directory
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ ls
+writeup.txt
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+heh2@CF167-22:~/241repo/lab1$ git add writeup.txt
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+heh2@CF167-22:~/241repo/lab1$ git comit -M[Km "a[KAdded part 1 ()n)a)m)e)s)[C to writeup"
+git: 'comit' is not a git command. See 'git --help'.
+
+Did you mean this?
+	commit
+heh2@CF167-22:~/241repo/lab1$ git commit - [Km "adde[K[K[K[KAdded part 1 ()n)a)m)e)s)[C to write [Kup:[K"
+[master c463e87] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+heh2@CF167-22:~/241repo/lab1$ git add writeup.txt
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+heh2@CF167-22:~/241repo/lab1$ git comit =m[K[K-m ""a"d"d"[1P"[1P"[1P"A"D"[1P"d"d"e"d" "p"a"r"t" "1" "(")"n)"a)"m)"e)"s)"[C[Ct"o" "[1P"[1P"[1P" "t"o" "W"r"[1P"[1P"w"r"i"t"e"u"p"
+git: 'comit' is not a git command. See 'git --help'.
+
+Did you mean this?
+	commit
+heh2@CF167-22:~/241repo/lab1$ git Commi[K[K[K[K[Kcommit -m ""A"d"d"e"d" "p"a"r"t" "1" "(")"n)"a)"m)"e)"s)"[Ct"o"[1P"[1P" "t"o" "w"r"i"t"e"u"p"
+[master e58c161] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git push # sometimes it wats you[K[K[K[K[K[Knts[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksometimes is [K[Kt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[Korigin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K [K
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': heh2
+Password for 'https://heh2@github.com': 
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 674 bytes | 0 bytes/s, done.
+Total 8 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 1 local object.[K
+git status
+To https://github.com/hutchteaching/201820_csci241_heh2
+   dd84382..e58c161  master -> master
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git help
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Forward-port local commits to the updated upstream head
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+heh2@CF167-22:~/241repo/lab1$ giyt[K[Kt blame writeup.txt
+[?1h=c463e872 (Henry 2018-04-12 10:38:03 -0700 1) First Last where you replace First Last with you fi[m rst and last names.[m
+e58c161e (Henry 2018-04-12 10:40:37 -0700 2) Hobby: XYA wher you replace XYZ with a hobby of you[m rs.[m
+[K[?1l>heh2@CF167-22:~/241repo/lab1$ git log
+[?1h=[33mcommit e58c161e5d0b8ffc81752a8cba217199ecfd455c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:40:37 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit c463e8723c3bab1bd1b413a7168f8cc586275d34[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:38:03 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit dd843822adaa36f4c6c38c992ac2e2a1bd23416c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:20:48 2018 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 8a8e593eb2b86849194d6697a2a25cb0047ff65e[m[m
+Author: Brian Hutchinson <github@finiteset.com>[m
+Date:   Sun Apr 8 12:45:13 2018 -0700[m
+[m
+    Initial commit[m
+[K[?1l>heh2@CF167-22:~/241repo/lab1$ git diff [K
+[?1h=[K[?1l>heh2@CF167-22:~/241repo/lab1$ git blame writeup.txt
+[?1h=c463e872 (Henry 2018-04-12 10:38:03 -0700 1) First Last where you replace First Last with you fi[m rst and last names.[m
+e58c161e (Henry 2018-04-12 10:40:37 -0700 2) Hobby: XYA wher you replace XYZ with a hobby of you[m rs.[m
+[K[?1l>heh2@CF167-22:~/241repo/lab1$ git log
+[?1h=[33mcommit e58c161e5d0b8ffc81752a8cba217199ecfd455c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:40:37 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit c463e8723c3bab1bd1b413a7168f8cc586275d34[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:38:03 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit dd843822adaa36f4c6c38c992ac2e2a1bd23416c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:20:48 2018 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 8a8e593eb2b86849194d6697a2a25cb0047ff65e[m[m
+Author: Brian Hutchinson <github@finiteset.com>[m
+Date:   Sun Apr 8 12:45:13 2018 -0700[m
+[m
+    Initial commit[m
+[K[?1l>heh2@CF167-22:~/241repo/lab1$ gits[K status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+heh2@CF167-22:~/241repo/lab1$ git add writeup.txt
+heh2@CF167-22:~/241repo/lab1$ gits[Ks[K status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+heh2@CF167-22:~/241repo/lab1$ git commit -m " [KAdded part 1 (0[K)n)a)m)e)s)[C to writeup[K[Kup"
+[master 7a39a01] Added part 1 (names) to writeup
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git push #
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': gist  t log
+Password for 'https://git log@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/hutchteaching/201820_csci241_heh2/'
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': hehe 2
+Password for 'https://heh2@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 331 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+git lo      To https://github.com/hutchteaching/201820_csci241_heh2
+   e58c161..7a39a01  master -> master
+heh2@CF167-22:~/241repo/lab1$ git logt[K[Kg
+[?1h=[33mcommit 7a39a01ceb310260d705d93119eaa92bdb17389c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:51:41 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit e58c161e5d0b8ffc81752a8cba217199ecfd455c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:40:37 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit c463e8723c3bab1bd1b413a7168f8cc586275d34[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:38:03 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit dd843822adaa36f4c6c38c992ac2e2a1bd23416c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:20:48 2018 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 8a8e593eb2b86849194d6697a2a25cb0047ff65e[m[m
+Author: Brian Hutchinson <github@finiteset.com>[m
+Date:   Sun Apr 8 12:45:13 2018 -0700[m
+[m
+    Initial commit[m
+:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K[K[?1l>heh2@CF167-22:~/241repo/lab1$ git l[Kstatus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+heh2@CF167-22:~/241repo/lab1$ git git add [K writeup.txt
+git: 'git' is not a git command. See 'git --help'.
+
+Did you mean this?
+	init
+heh2@CF167-22:~/241repo/lab1$ git add writeup.txt
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+heh2@CF167-22:~/241repo/lab1$ gitgomm[K[K[K[K commit -m""A"d"d"e"d" "p"a"r"t" "1" "("a"n"e"s"[1P"[1P"[1P"[1P")"n)"a)"m)"e)"s)" )"t)"o)"[1P)"[1P)"[1P)"[Ct"o"[1P"[1P" "t"o" "w"r"i"t"e"u"p"
+[master 6ad0a36] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+heh2@CF167-22:~/241repo/lab1$ gits[K status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git[K[K[Kgit psu[K[Kush #[Korigin master
+Username for 'https://github.com': heh2
+Password for 'https://heh2@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/hutchteaching/201820_csci241_heh2/'
+heh2@CF167-22:~/241repo/lab1$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': heh2
+Password for 'https://heh2@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 334 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+giTo https://github.com/hutchteaching/201820_csci241_heh2
+   7a39a01..6ad0a36  master -> master
+heh2@CF167-22:~/241repo/lab1$ git sat[K[Ktatus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git log
+[?1h=[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:54:52 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 7a39a01ceb310260d705d93119eaa92bdb17389c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:51:41 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit e58c161e5d0b8ffc81752a8cba217199ecfd455c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:40:37 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit c463e8723c3bab1bd1b413a7168f8cc586275d34[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:38:03 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit dd843822adaa36f4c6c38c992ac2e2a1bd23416c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:20:48 2018 -0700[m
+[m
+    Added empty writeup[m
+:[K[K[m
+:[K[K:[K[K:[K[K:[K[K:[K[K[33mcommit 8a8e593eb2b86849194d6697a2a25cb0047ff65e[m[m
+:[K[K[HMAuthor: Henry <heh2@wwu.edu>[m
+[HM[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+[30;1H[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K[m
+:[K[K[HM[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+[30;1H[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K:[K[K:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K:[K[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K[m
+:[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+:[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+:[K[K [KESCESC[KOO[KDD[H[2J[H[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+:[K[K [KESCESC[KOO[KDD[H[2J[HAuthor: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:54:52 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 7a39a01ceb310260d705d93119eaa92bdb17389c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:51:41 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit e58c161e5d0b8ffc81752a8cba217199ecfd455c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:40:37 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit c463e8723c3bab1bd1b413a7168f8cc586275d34[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:38:03 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit dd843822adaa36f4c6c38c992ac2e2a1bd23416c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:20:48 2018 -0700[m
+[m
+    Added empty writeup[m
+[m
+:[K[K [KESCESC[KOO[KDD[H[2J[HAuthor: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:54:52 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 7a39a01ceb310260d705d93119eaa92bdb17389c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:51:41 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit e58c161e5d0b8ffc81752a8cba217199ecfd455c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:40:37 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit c463e8723c3bab1bd1b413a7168f8cc586275d34[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:38:03 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit dd843822adaa36f4c6c38c992ac2e2a1bd23416c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:20:48 2018 -0700[m
+[m
+    Added empty writeup[m
+[m
+:[K[K [KESCESC[KOO[KAA[K[HM[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+[30;1H[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K:[K[K:[K[K:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K:[K[K:[K[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K [KESCESC[K[[[K33[K:[K[K:[K[K [KESCESC[K[[[K33[K:[K[K:[K[K [KESCESC[K[[[K33[K:[K[K:[K[K:[K[K:[K[K:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K[m
+[33mcommit 8a8e593eb2b86849194d6697a2a25cb0047ff65e[m[m
+Author: Brian Hutchinson <github@finiteset.com>[m
+Date:   Sun Apr 8 12:45:13 2018 -0700[m
+[m
+    Initial commit[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[30;1H[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[HM[m
+[HM    Added part 1 (names) to writeup[m
+[HM[m
+[HMDate:   Thu Apr 12 10:54:52 2018 -0700[m
+[HMAuthor: Henry <heh2@wwu.edu>[m
+[HM[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+[30;1H[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K:[K[K:[K[K:[K[K...skipping...
+[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:54:52 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 7a39a01ceb310260d705d93119eaa92bdb17389c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:51:41 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit e58c161e5d0b8ffc81752a8cba217199ecfd455c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:40:37 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit c463e8723c3bab1bd1b413a7168f8cc586275d34[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:38:03 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit dd843822adaa36f4c6c38c992ac2e2a1bd23416c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:20:48 2018 -0700[m
+[m
+    Added empty writeup[m
+:[K[K[m
+:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K[HM[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+[30;1H[K:[K[K...skipping...
+[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:54:52 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 7a39a01ceb310260d705d93119eaa92bdb17389c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:51:41 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit e58c161e5d0b8ffc81752a8cba217199ecfd455c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:40:37 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit c463e8723c3bab1bd1b413a7168f8cc586275d34[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:38:03 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit dd843822adaa36f4c6c38c992ac2e2a1bd23416c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:20:48 2018 -0700[m
+[m
+    Added empty writeup[m
+:[K[K:[K[K:[K[K:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K:[K[K:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K:[K[K:[K[K[K:[K[K:[K[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K:[K[K[m
+:[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[30;1H[K[K[33mcommit 8a8e593eb2b86849194d6697a2a25cb0047ff65e[m[m
+Author: Brian Hutchinson <github@finiteset.com>[m
+Date:   Sun Apr 8 12:45:13 2018 -0700[m
+[m
+    Initial commit[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[HM[m
+[HM    Added part 1 (names) to writeup[m
+[HM[m
+[HMDate:   Thu Apr 12 10:54:52 2018 -0700[m
+[HMAuthor: Henry <heh2@wwu.edu>[m
+[HM[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+[30;1H[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K:[K[K:[K[K [KESCESC[K^?^?[K:[K[K:[K[K [KESCESC[K^?^?[K:[K[K:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KAA[K[HM[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+[30;1H[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+:[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:54:52 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 7a39a01ceb310260d705d93119eaa92bdb17389c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:51:41 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit e58c161e5d0b8ffc81752a8cba217199ecfd455c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:40:37 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit c463e8723c3bab1bd1b413a7168f8cc586275d34[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:38:03 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit dd843822adaa36f4c6c38c992ac2e2a1bd23416c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:20:48 2018 -0700[m
+[m
+    Added empty writeup[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 8a8e593eb2b86849194d6697a2a25cb0047ff65e[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Brian Hutchinson <github@finiteset.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Sun Apr 8 12:45:13 2018 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Initial commit[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K:[K[K [KESCESC[KOO[KBB[K    Initial commit[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33mcommit 7a39a01ceb310260d705d93119eaa92bdb17389c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:51:41 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit e58c161e5d0b8ffc81752a8cba217199ecfd455c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:40:37 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit c463e8723c3bab1bd1b413a7168f8cc586275d34[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:38:03 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit dd843822adaa36f4c6c38c992ac2e2a1bd23416c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:20:48 2018 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 8a8e593eb2b86849194d6697a2a25cb0047ff65e[m[m
+Author: Brian Hutchinson <github@finiteset.com>[m
+Date:   Sun Apr 8 12:45:13 2018 -0700[m
+[m
+    Initial commit[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33mcommit 7a39a01ceb310260d705d93119eaa92bdb17389c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:51:41 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit e58c161e5d0b8ffc81752a8cba217199ecfd455c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:40:37 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit c463e8723c3bab1bd1b413a7168f8cc586275d34[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:38:03 2018 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit dd843822adaa36f4c6c38c992ac2e2a1bd23416c[m[m
+Author: Henry <heh2@wwu.edu>[m
+Date:   Thu Apr 12 10:20:48 2018 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 8a8e593eb2b86849194d6697a2a25cb0047ff65e[m[m
+Author: Brian Hutchinson <github@finiteset.com>[m
+Date:   Sun Apr 8 12:45:13 2018 -0700[m
+[m
+    Initial commit[m
+[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K:[K[K [KESCESC[KOO[KBB[K    Initial commit[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[HM[m
+[HM    Added part 1 (names) to writeup[m
+[HM[m
+[HMDate:   Thu Apr 12 10:54:52 2018 -0700[m
+[HMAuthor: Henry <heh2@wwu.edu>[m
+[HM[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+[30;1H[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 8a8e593eb2b86849194d6697a2a25cb0047ff65e[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Brian Hutchinson <github@finiteset.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Sun Apr 8 12:45:13 2018 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Initial commit[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[HM[m
+[HM    Added part 1 (names) to writeup[m
+[HM[m
+[HMDate:   Thu Apr 12 10:54:52 2018 -0700[m
+[HMAuthor: Henry <heh2@wwu.edu>[m
+[HM[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+[30;1H[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K:[K[K:[K[K:[K[K:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 8a8e593eb2b86849194d6697a2a25cb0047ff65e[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Brian Hutchinson <github@finiteset.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Sun Apr 8 12:45:13 2018 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Initial commit[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[30;1H[K:[K[K [KESCESC[KOO[KBB[K    Initial commit[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[HM[m
+[HM    Added part 1 (names) to writeup[m
+[HM[m
+[HMDate:   Thu Apr 12 10:54:52 2018 -0700[m
+[HMAuthor: Henry <heh2@wwu.edu>[m
+[HM[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+[30;1H[K:[K[K:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 8a8e593eb2b86849194d6697a2a25cb0047ff65e[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Brian Hutchinson <github@finiteset.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Sun Apr 8 12:45:13 2018 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Initial commit[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[HM[m
+[HM    Added part 1 (names) to writeup[m
+[HM[m
+[HMDate:   Thu Apr 12 10:54:52 2018 -0700[m
+[HMAuthor: Henry <heh2@wwu.edu>[m
+[HM[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+[30;1H[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 8a8e593eb2b86849194d6697a2a25cb0047ff65e[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Brian Hutchinson <github@finiteset.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Sun Apr 8 12:45:13 2018 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Initial commit[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[K^J^J[K[7m(END)[27m[K[K[HM[m
+[HM    Added part 1 (names) to writeup[m
+[HM[m
+[HMDate:   Thu Apr 12 10:54:52 2018 -0700[m
+[HMAuthor: Henry <heh2@wwu.edu>[m
+[HM[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+[30;1H[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K:[K[K:[K[K:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K[33mcommit 8a8e593eb2b86849194d6697a2a25cb0047ff65e[m[m
+:[K[K [KESCESC[KOO[KBB[KAuthor: Brian Hutchinson <github@finiteset.com>[m
+:[K[K [KESCESC[KOO[KBB[KDate:   Sun Apr 8 12:45:13 2018 -0700[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Initial commit[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[HM[m
+[HM    Added part 1 (names) to writeup[m
+[HM[m
+[HMDate:   Thu Apr 12 10:54:52 2018 -0700[m
+[HMAuthor: Henry <heh2@wwu.edu>[m
+[HM[33mcommit 6ad0a36c1ecc3615785d6eff9c6f12491424a60b[m[m
+[30;1H[K:[K[K [KESCESC[K[[[K22[K:[K[K:[K[K:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K[?1l>heh2@CF167-22:~/241repo/lab1$ git e[Kcheckout -b question [K3
+Switched to a new branch 'question3'
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch question3
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+heh2@CF167-22:~/241repo/lab1$ git commit -a -m "added a question"[1P[1@A[1P[C[C[C[C[C[C[C[1@"[C[1P[1@m[1@ [C[1P[1@"[C[1P[C[1@"[1P
+[question3 0e83f81] added a question
+ 1 file changed, 1 insertion(+)
+heh2@CF167-22:~/241repo/lab1$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+heh2@CF167-22:~/241repo/lab1$ git merge question3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcheckout master
+Already on 'master'
+Your branch is up-to-date with 'origin/master'.
+heh2@CF167-22:~/241repo/lab1$ git merge branch[K[K[K[K[K[Kquestion3
+Updating 6ad0a36..0e83f81
+Fast-forward
+ lab1/writeup.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git branch -d question3
+Deleted branch question3 (was 0e83f81).
+heh2@CF167-22:~/241repo/lab1$ git checkout question [K3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git checkout quesio[K[Ktion3
+error: pathspec 'question3' did not match any file(s) known to git.
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git checkout -b question3
+Switched to a new branch 'question3'
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch question3
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+heh2@CF167-22:~/241repo/lab1$ git checkout -b hotfix
+Switched to a new branch 'hotfix'
+heh2@CF167-22:~/241repo/lab1$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+heh2@CF167-22:~/241repo/lab1$ gir[Kt merge hto[K[Kotfix
+Already up-to-date.
+heh2@CF167-22:~/241repo/lab1$ git branch -dhotfix[K[K[K[K[K[K hotfix
+Deleted branch hotfix (was 0e83f81).
+heh2@CF167-22:~/241repo/lab1$ git[K[K[Kgit branch[K[K[K[K[K[K[K[K[K[Kgit checkout mer[K[K[Kmsater
+error: pathspec 'msater' did not match any file(s) known to git.
+heh2@CF167-22:~/241repo/lab1$ git checkout master
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+heh2@CF167-22:~/241repo/lab1$ git merge question3
+Already up-to-date.
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+heh2@CF167-22:~/241repo/lab1$ gir[Kt[K[K[Kcheck[K[K[K[K[Kgit checkout question3
+M	lab1/writeup.txt
+Switched to branch 'question3'
+heh2@CF167-22:~/241repo/lab1$ get[K[Kit status
+On branch question3
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+heh2@CF167-22:~/241repo/lab1$ git add writeup.txt
+heh2@CF167-22:~/241repo/lab1$ git comit -m"[K " [KAdded part [K[K[K[K[Kmusic Gener[K[K[K[K[Ke[Kgn[Kenre"[C[K to write up"
+git: 'comit' is not a git command. See 'git --help'.
+
+Did you mean this?
+	commit
+heh2@CF167-22:~/241repo/lab1$ c[Kgit commit -m "Added music genre to write up"
+[question3 9567aa7] Added music genre to write up
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch question3
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git merge[K[K[K[K[K[K checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+heh2@CF167-22:~/241repo/lab1$ git merge question3
+Updating 0e83f81..9567aa7
+Fast-forward
+ lab1/writeup.txt | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+heh2@CF167-22:~/241repo/lab1$ git nrach[K[K[K[K[Kbracn[K[Knch -d question3
+Deleted branch question3 (was 9567aa7).
+heh2@CF167-22:~/241repo/lab1$ chec[K[K[K[Kgit checkout hotfix
+error: pathspec 'hotfix' did not match any file(s) known to git.
+heh2@CF167-22:~/241repo/lab1$ git checkout question3
+error: pathspec 'question3' did not match any file(s) known to git.
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git staut[K[Ktus
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ git checkout master
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+heh2@CF167-22:~/241repo/lab1$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+heh2@CF167-22:~/241repo/lab1$ exit
+exit
+
+Script done on Thu 12 Apr 2018 11:40:14 AM PDT

@@ -1,0 +1,768 @@
+Script started on Sat 05 May 2018 04:16:27 PM PDT
+heh2@cf164-13:~/241repo/lab4Intellij/src$ ha[K[Kjava [Kc -g mer[K[K[KMergeSp[K[KSort.java
+heh2@cf164-13:~/241repo/lab4Intellij/src$ jdb Merge[K[K[K[K[KMergeSort
+Initializing jdb ...
+> run MergeSort
+run  MergeSort
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+> 
+VM Started: Original array:
+12 11 13 5 6 7 
+
+Sorted array:
+6 7 7 11 13 7 
+
+The application exited
+heh2@cf164-13:~/241repo/lab4Intellij/src$ jdp
+No command 'jdp' found, did you mean:
+ Command 'hdp' from package 'hdf4-tools' (universe)
+ Command 'jd' from package 'jd' (universe)
+ Command 'mdp' from package 'mdp' (universe)
+ Command 'cdp' from package 'irpas' (multiverse)
+ Command 'fdp' from package 'graphviz' (main)
+ Command 'jp' from package 'sat-xmpp-jp' (universe)
+ Command 'jdb' from package 'openjdk-9-jdk-headless' (universe)
+ Command 'jdb' from package 'openjdk-8-jdk-headless' (main)
+ Command 'dp' from package 'speech-tools' (universe)
+jdp: command not found
+heh2@cf164-13:~/241repo/lab4Intellij/src$ jdb
+Initializing jdb ...
+> m ru  stop at MergeSort. :77
+Deferring breakpoint MergeSort:77.
+It will be set after the class is loaded.
+> run m MergeSort
+run  MergeSort
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+> 
+VM Started: Unable to set deferred breakpoint MergeSort:77 : No code at line 77 in MergeSort
+
+Stopping due to deferred breakpoint errors.
+"thread=main", java.lang.Class.getDeclaredMethods0(), line=-1 bci=-1
+
+main[1] local
+Unrecognized command: 'local'.  Try help...
+main[1] clear
+Breakpoints set:
+	breakpoint MergeSort:77
+main[1] clear MergeSort:77
+Removed: breakpoint MergeSort:77
+main[1] M Stop    S stop at MergeSort:80
+Set breakpoint MergeSort:80
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.main(), line=102 bci=0
+102                int arr[] = {12, 11, 13, 5, 6, 7}; // assume default array
+
+main[1] step    lcoa   oac  cal
+Unrecognized command: 'local'.  Try help...
+main[1] ocal    help    locals
+Method arguments:
+args = instance of java.lang.String[0] (id=421)
+Local variables:
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.main(), line=103 bci=34
+103                if( args.length > 0 ) {
+
+main[1] locals
+Method arguments:
+args = instance of java.lang.String[0] (id=421)
+Local variables:
+arr = instance of int[6] (id=422)
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.main(), line=111 bci=67
+111                System.out.println("Original array:");
+
+main[1] locals
+Method arguments:
+args = instance of java.lang.String[0] (id=421)
+Local variables:
+arr = instance of int[6] (id=422)
+main[1] step
+> Original array:
+
+Step completed: "thread=main", MergeSort.main(), line=112 bci=75
+112                printArray(arr);
+
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.printArray(), line=93 bci=0
+93            int n = arr.length;
+
+main[1] step    locals
+Method arguments:
+arr = instance of int[6] (id=422)
+Local variables:
+main[1] watch [] acess|all] MergeSort.java
+Class containing field must be specified.
+main[1] print <.^[[D      <>^[[D      ^[[D      ^[[2~       var   ^[[D     ^[[A^[[B^[[A^[[B                 t <var>
+com.sun.tools.example.debug.expr.ParseException: Encountered "<" at line 1, column 2.
+Was expecting one of:
+    "false" ...
+    "new" ...
+    "null" ...
+    "super" ...
+    "this" ...
+    "true" ...
+    <INTEGER_LITERAL> ...
+    <FLOATING_POINT_LITERAL> ...
+    <CHARACTER_LITERAL> ...
+    <STRING_LITERAL> ...
+    <IDENTIFIER> ...
+    "(" ...
+    "!" ...
+    "~" ...
+    "++" ...
+    "--" ...
+    "+" ...
+    "-" ...
+    
+ <var> = null
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.printArray(), line=94 bci=3
+94            for (int i=0; i<n; ++i) {
+
+main[1] run MergeSort
+VM already running. Use 'cont' to continue after events.
+main[1] clear Stopa           Clae  eat r MergeSort. :77
+Not found: breakpoint MergeSort:77
+main[1] clear
+Breakpoints set:
+	breakpoint MergeSort:80
+main[1] Clear       clear merge     MergeSort:80
+Removed: breakpoint MergeSort:80
+main[1] run     cont
+> 12 11 13 5 6 7 
+
+Sorted array:
+6 7 7 11 13 7 
+
+The application exited
+heh2@cf164-13:~/241repo/lab4Intellij/src$ jsp [K[K[Kdb MER[K[KE[KergeSort
+Initializing jdb ...
+> Stop at Merge e  Sort: 22   22
+Deferring breakpoint MergeSort:22.
+It will be set after the class is loaded.
+> step
+Command 'step' is not valid until the VM is started with the 'run' command
+> run Mere geSort
+run  MergeSort
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+> 
+VM Started: Unable to set deferred breakpoint MergeSort:22 : No code at line 22 in MergeSort
+
+Stopping due to deferred breakpoint errors.
+"thread=main", java.lang.Class.getDeclaredMethods0(), line=-1 bci=-1
+
+main[1] locals
+Local variable information not available.  Compile with -g to generate variable information
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.main(), line=102 bci=0
+102                int arr[] = {12, 11, 13, 5, 6, 7}; // assume default array
+
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.main(), line=103 bci=34
+103                if( args.length > 0 ) {
+
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.main(), line=111 bci=67
+111                System.out.println("Original array:");
+
+main[1] step
+> Original array:
+
+Step completed: "thread=main", MergeSort.main(), line=112 bci=75
+112                printArray(arr);
+
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.printArray(), line=93 bci=0
+93            int n = arr.length;
+
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.printArray(), line=94 bci=3
+94            for (int i=0; i<n; ++i) {
+
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.printArray(), line=95 bci=10
+95                System.out.print(arr[i] + " ");
+
+main[1] step
+> 12 
+Step completed: "thread=main", MergeSort.printArray(), line=94 bci=37
+94            for (int i=0; i<n; ++i) {
+
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.printArray(), line=95 bci=10
+95                System.out.print(arr[i] + " ");
+
+main[1] step
+> 11 
+Step completed: "thread=main", MergeSort.printArray(), line=94 bci=37
+94            for (int i=0; i<n; ++i) {
+
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.printArray(), line=95 bci=10
+95                System.out.print(arr[i] + " ");
+
+main[1] step
+> 13 
+Step completed: "thread=main", MergeSort.printArray(), line=94 bci=37
+94            for (int i=0; i<n; ++i) {
+
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.printArray(), line=95 bci=10
+95                System.out.print(arr[i] + " ");
+
+main[1] step
+> 5 
+Step completed: "thread=main", MergeSort.printArray(), line=94 bci=37
+94            for (int i=0; i<n; ++i) {
+
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.printArray(), line=95 bci=10
+95                System.out.print(arr[i] + " ");
+
+main[1] clear Mergeso  Sort:102
+Not found: breakpoint MergeSort:102
+main[1] ^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[A                                                                                        Clear       clear MergeSort:22
+Removed: breakpoint MergeSort:22
+main[1] cont
+> 6 7 
+
+Sorted array:
+6 7 7 11 13 7 
+
+The application exited
+heh2@cf164-13:~/241repo/lab4Intellij/src$ d[Kjdp
+No command 'jdp' found, did you mean:
+ Command 'jd' from package 'jd' (universe)
+ Command 'jp' from package 'sat-xmpp-jp' (universe)
+ Command 'dp' from package 'speech-tools' (universe)
+ Command 'jdb' from package 'openjdk-9-jdk-headless' (universe)
+ Command 'jdb' from package 'openjdk-8-jdk-headless' (main)
+ Command 'fdp' from package 'graphviz' (main)
+ Command 'mdp' from package 'mdp' (universe)
+ Command 'cdp' from package 'irpas' (multiverse)
+ Command 'hdp' from package 'hdf4-tools' (universe)
+jdp: command not found
+heh2@cf164-13:~/241repo/lab4Intellij/src$ jdb
+Initializing jdb ...
+> stop at C MergeSOrt   ort; :80
+Deferring breakpoint MergeSort:80.
+It will be set after the class is loaded.
+> step
+Command 'step' is not valid until the VM is started with the 'run' command
+> run MergeSO ort
+run  MergeSort
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+> 
+VM Started: Set deferred breakpoint MergeSort:80
+Original array:
+12 11 13 5 6 7 
+
+Breakpoint hit: "thread=main", MergeSort.sort(), line=80 bci=5
+80                int m = (l+r)/2;
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+r = 5
+Local variables:
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.sort(), line=83 bci=11
+83                sort(arr, l, m);
+
+main[1] lcoal    oals   cals  ls
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+r = 5
+Local variables:
+m = 2
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.sort(), line=78 bci=0
+78            if (l < r) {
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+r = 2
+Local variables:
+main[1] step
+> 
+Step completed: 
+Breakpoint hit: "thread=main", MergeSort.sort(), line=80 bci=5
+80                int m = (l+r)/2;
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+r = 2
+Local variables:
+main[1] te  step
+> 
+Step completed: "thread=main", MergeSort.sort(), line=83 bci=11
+83                sort(arr, l, m);
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+r = 2
+Local variables:
+m = 1
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.sort(), line=78 bci=0
+78            if (l < r) {
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+r = 1
+Local variables:
+main[1] step
+> 
+Step completed: 
+Breakpoint hit: "thread=main", MergeSort.sort(), line=80 bci=5
+80                int m = (l+r)/2;
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+r = 1
+Local variables:
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.sort(), line=83 bci=11
+83                sort(arr, l, m);
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+r = 1
+Local variables:
+m = 0
+main[1] loc   step
+> 
+Step completed: "thread=main", MergeSort.sort(), line=78 bci=0
+78            if (l < r) {
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+r = 0
+Local variables:
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.sort(), line=89 bci=32
+89        }
+
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.sort(), line=84 bci=17
+84                sort(arr , m+1, r);
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+r = 1
+Local variables:
+m = 0
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.sort(), line=78 bci=0
+78            if (l < r) {
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 1
+r = 1
+Local variables:
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.sort(), line=89 bci=32
+89        }
+
+main[1] s locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 1
+r = 1
+Local variables:
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.sort(), line=87 bci=25
+87                merge(arr, l, m, r);
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+r = 1
+Local variables:
+m = 0
+main[1] clear  
+Breakpoints set:
+	breakpoint MergeSort:80
+main[1] blrea     clear MEa  ergeSort:80
+Removed: breakpoint MergeSort:80
+main[1] run   cont
+> 
+Sorted array:
+6 7 7 11 13 7 
+
+The application exited
+heh2@cf164-13:~/241repo/lab4Intellij/src$ c[Kjdp MergeSort
+No command 'jdp' found, did you mean:
+ Command 'dp' from package 'speech-tools' (universe)
+ Command 'hdp' from package 'hdf4-tools' (universe)
+ Command 'jd' from package 'jd' (universe)
+ Command 'jdb' from package 'openjdk-9-jdk-headless' (universe)
+ Command 'jdb' from package 'openjdk-8-jdk-headless' (main)
+ Command 'jp' from package 'sat-xmpp-jp' (universe)
+ Command 'cdp' from package 'irpas' (multiverse)
+ Command 'mdp' from package 'mdp' (universe)
+ Command 'fdp' from package 'graphviz' (main)
+jdp: command not found
+heh2@cf164-13:~/241repo/lab4Intellij/src$ Jdb[K[K[Kjdb MergeSort
+Initializing jdb ...
+> stop at Mergesort    Sort:87
+Deferring breakpoint MergeSort:87.
+It will be set after the class is loaded.
+> clear
+Breakpoints set:
+	breakpoint MergeSort:87
+> St  run merge     MergeSort
+run  MergeSort
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+> 
+VM Started: Set deferred breakpoint MergeSort:87
+Original array:
+12 11 13 5 6 7 
+
+Breakpoint hit: "thread=main", MergeSort.sort(), line=87 bci=25
+87                merge(arr, l, m, r);
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+r = 1
+Local variables:
+m = 0
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.merge(), line=24 bci=0
+24            int n1 = m - l;
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+m = 0
+r = 1
+Local variables:
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.merge(), line=25 bci=5
+25            int n2 = r - m;
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+m = 0
+r = 1
+Local variables:
+n1 = 0
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.merge(), line=29 bci=10
+29            int L[] = new int[n1];
+
+main[1] locla  als
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+m = 0
+r = 1
+Local variables:
+n1 = 0
+n2 = 1
+main[1] merge     M c clear
+Breakpoints set:
+	breakpoint MergeSort:87
+main[1] Clear Mergeso  Sort; :87
+Removed: breakpoint MergeSort:87
+main[1] run   cont
+> 
+Sorted array:
+6 7 7 11 13 7 
+
+The application exited
+heh2@cf164-13:~/241repo/lab4Intellij/src$ jdb MergeSortp[C[C[C[C[C[C[C[C[C[Cb[Kp MergeSortb[C[C[C[C[C[C[C[C[C[C[Kjavac g-M[K MergeSort.java
+javac: invalid flag: g-
+Usage: javac <options> <source files>
+use -help for a list of possible options
+heh2@cf164-13:~/241repo/lab4Intellij/src$ javac g- MergeSort.java[1P[C[1@ [C[1P[1P[Cg MergeSort.java[1@ 
+heh2@cf164-13:~/241repo/lab4Intellij/src$ java[K[K[K[Kjdb MergeSort
+Initializing jdb ...
+> stop at ME ergeSOr  ort; :87
+Deferring breakpoint MergeSort:87.
+It will be set after the class is loaded.
+> step    run mergesort         MergeSort
+run  MergeSort
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+> 
+VM Started: Set deferred breakpoint MergeSort:87
+Original array:
+12 11 13 5 6 7 
+
+Breakpoint hit: "thread=main", MergeSort.sort(), line=87 bci=11
+87                merge(arr, l, m, r);
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+r = 5
+Local variables:
+m = 2
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.merge(), line=24 bci=0
+24            int n1 = m - l;
+
+main[1] locals      step    locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+m = 2
+r = 5
+Local variables:
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.merge(), line=25 bci=5
+25            int n2 = r - m;
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+m = 2
+r = 5
+Local variables:
+n1 = 2
+main[1] clear       cont
+> 
+Sorted array:
+5 6 7 12 11 7 
+
+The application exited
+heh2@cf164-13:~/241repo/lab4Intellij/src$ javac -g Mergesor[K[K[KSort.java
+heh2@cf164-13:~/241repo/lab4Intellij/src$ jdb MergeSort
+Initializing jdb ...
+> run MergeSort
+run  MergeSort
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+> 
+VM Started: Original array:
+12 11 13 5 6 7 
+
+Exception occurred: java.lang.ArrayIndexOutOfBoundsException (uncaught)"thread=main", MergeSort.merge(), line=37 bci=70
+37                R[j] = arr[m+1+j];
+
+main[1] cont
+> Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
+	at MergeSort.merge(MergeSort.java:37)
+	at MergeSort.sort(MergeSort.java:87)
+	at MergeSort.main(MergeSort.java:114)
+
+The application exited
+heh2@cf164-13:~/241repo/lab4Intellij/src$ jdb MergeSortavac -g MergeSort.java
+heh2@cf164-13:~/241repo/lab4Intellij/src$ javac -g MergeSort.java[10Pdb MergeSortavac -g MergeSort.java[10Pdb MergeSort
+Initializing jdb ...
+> ^[[A^[[A^[[A            stop at MergeSort:24
+Deferring breakpoint MergeSort:24.
+It will be set after the class is loaded.
+> run MergeSort
+run  MergeSort
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+> 
+VM Started: Set deferred breakpoint MergeSort:24
+Original array:
+12 11 13 5 6 7 
+
+Breakpoint hit: "thread=main", MergeSort.merge(), line=24 bci=0
+24            int n1 = m - l;
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+m = 2
+r = 5
+Local variables:
+main[1] step    step
+> 
+Step completed: "thread=main", MergeSort.merge(), line=25 bci=5
+25            int n2 = r - m;
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+m = 2
+r = 5
+Local variables:
+n1 = 2
+main[1] cont
+> 
+Sorted array:
+5 6 7 12 11 7 
+
+The application exited
+heh2@cf164-13:~/241repo/lab4Intellij/src$ jdb MergeSortavac -g MergeSort.java
+heh2@cf164-13:~/241repo/lab4Intellij/src$ javac -g MergeSort.java[Kjavac -g MergeSort.java[10Pdb MergeSort
+Initializing jdb ...
+> stop at MergeSort  :78
+Deferring breakpoint MergeSort:78.
+It will be set after the class is loaded.
+> run    un merge     MergeSort
+run  MergeSort
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+> 
+VM Started: Set deferred breakpoint MergeSort:78
+Original array:
+12 11 13 5 6 7 
+
+Breakpoint hit: "thread=main", MergeSort.sort(), line=78 bci=0
+78            if (l < r) {
+
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.sort(), line=80 bci=5
+80                int m = (l+r)/2;
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+r = 5
+Local variables:
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.sort(), line=87 bci=11
+87                merge(arr, l, m, r);
+
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.merge(), line=24 bci=0
+24            int n1 = (m+1) - l;
+
+main[1] lo  locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+m = 2
+r = 5
+Local variables:
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.merge(), line=25 bci=7
+25            int n2 = r - m;
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+m = 2
+r = 5
+Local variables:
+n1 = 3
+main[1] step
+> 
+Step completed: "thread=main", MergeSort.merge(), line=29 bci=12
+29            int L[] = new int[n1];
+
+main[1] locals
+Method arguments:
+arr = instance of int[6] (id=422)
+l = 0
+m = 2
+r = 5
+Local variables:
+n1 = 3
+n2 = 3
+main[1] cont
+> 
+Sorted array:
+5 6 7 12 11 13 
+
+The application exited
+heh2@cf164-13:~/241repo/lab4Intellij/src$ jdb MergeSortavac -g MergeSort.java
+heh2@cf164-13:~/241repo/lab4Intellij/src$ javac -g MergeSort.java[10Pdb MergeSort
+Initializing jdb ...
+> runm  Merwe  geSort
+run  MergeSort
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+> 
+VM Started: Original array:
+12 11 13 5 6 7 
+
+Sorted array:
+5 6 7 11 12 13 
+
+The application exited
+heh2@cf164-13:~/241repo/lab4Intellij/src$ jdb m[K[K[K[K[Kjdb MergeSortavac -g MergeSort.java
+heh2@cf164-13:~/241repo/lab4Intellij/src$ javac -g MergeSort.java[10Pdb MergeSort
+Initializing jdb ...
+> ^[[A^[[B^[[B            run MergeSort
+run  MergeSort
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+> 
+VM Started: Original array:
+12 11 13 5 6 7 
+
+Sorted array:
+5 6 7 11 12 13 
+
+The application exited
+heh2@cf164-13:~/241repo/lab4Intellij/src$ exit
+
+Script done on Sat 05 May 2018 05:04:24 PM PDT

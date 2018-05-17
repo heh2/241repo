@@ -1,0 +1,11 @@
+Q1. The exception that is thrown is the java.lang.NullPointerException on line 79.
+
+Q2. The exception that is thrown is the java.lang.ArrayIndexOutOfBoundsException on line 69.
+
+Q3. The exception that is thrown is the java.lang.ArithmeticException on line 60.
+
+Q4. The exception that is thrown is the java.lang.NumberFormatException on line 52.
+
+Q5. The compilation error message I recieved is an unreported exception FileNotFoundException.
+
+Q6. You would use the finally block when you want your program to continue to run even if unexpected exception occur. The finally block is useful because it prevents any cleanup code from continuing on by a continue, break or return.
